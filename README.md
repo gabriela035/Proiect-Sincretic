@@ -8,16 +8,16 @@
   
   
     2.REZOLVARE
-Funcția "hanoi" ia ca parametrii: N (numărul curent de discuri), a (tija initiala) , c (tija finala) si b (tija auxiliara). Apoi, in main se apeleaza funcția pentru N – al 1-lea disc. La fiecare pas se afiseaza discul curent , a și c. Se apeleaza din nou functia recursiv pana cand n devine 0 si se iese din bucla.
+Funcția "hanoi" ia ca parametrii: N (numărul curent de discuri), a (tija initiala) , c (tija finala) şi b (tija auxiliara). Apoi, în main se apelează funcția pentru N – al 1-lea disc. La fiecare pas se afişează discul curent , a și c. Se apelează din nou funcţia recursiv până când n devine 0 şi se iese din buclă.
 
-Se urmaresc urmatorii pasi:
+Se urmăresc urmatorii pasi:
 
 
-Se muta discul „N-1” de la „A” la „B”, folosind C .
+Se mută discul „N-1” de la „A” la „B”, folosind C .
 
-Se muta ultimul disc de la „A” la „C”.
+Se mută ultimul disc de la „A” la „C”.
 
-Se muta discul „N-1” de la „B” la „C”, folosind A.
+Se mută discul „N-1” de la „B” la „C”, folosind A.
 
 Mediul de dezvoltare ales este Microsoft Visual Studio(2022)
 
@@ -27,5 +27,3 @@ Mediul de dezvoltare ales este Microsoft Visual Studio(2022)
 ![image](https://user-images.githubusercontent.com/93073180/207096496-1f541690-19ca-4844-a9bf-60ca990676c8.png)
 
 ![image](https://user-images.githubusercontent.com/93073180/207096796-e65fecfc-af65-4312-b609-a77803d621f5.png)
-
-
