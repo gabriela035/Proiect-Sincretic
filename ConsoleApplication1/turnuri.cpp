@@ -3,7 +3,6 @@ using namespace std;
 
 void hanoi(int n, char a, char c,char b)
 {
-   
     if (!n) 
         return;
     hanoi(n - 1, a, b, c);
