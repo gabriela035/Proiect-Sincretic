@@ -7,4 +7,14 @@
   a fost inspirat de legenda Turnului lui Brahma aflat într-un templu al oraşului indian Benares.
   
   
-  
+    2.REZOLVARE
+Se muta discul „N-1” de la „A” la „B”, folosind C.
+Se muta ultimul disc de la „A” la „C”.
+
+Se muta discul „N-1” de la „B” la „C”, folosind A.
+
+-Pașii pentru a rezolva problema:
+
+Se creaza o funcție turnurileHanoi ce ia ca parametrii N (numărul curent de discuri), tija_init, tija_finala, tija_aux. Se apeleaza funcția pentru N – al 1-lea disc. Se afiseaza discul curent , tija_init și tija_finala Se apeleaza din nou functia pentru N – al 1-lea disc.
+
+
