@@ -1,22 +1,21 @@
 #include <iostream>
 using namespace std;
 
-void towerOfHanoi(int n, char from_rod, char to_rod,char aux_rod)
+void hanoi(int n, char a, char c,char b)
 {
-    if (n == 0) {
+   
+    if (!n) 
         return;
-    }
-    towerOfHanoi(n - 1, from_rod, aux_rod, to_rod);
-    cout << "Disc: " << n << " de pe" << from_rod
-        << " pe " << to_rod << endl;
-    towerOfHanoi(n - 1, aux_rod, to_rod, from_rod);
+    hanoi(n - 1, a, b, c);
+    cout << "Disc: " << n << " de pe " << a << " pe " << c << endl;
+    hanoi(n - 1, b, c, a);
 }
 
 int main()
 {
     int n;
-    cout << "n= ";
+    cout << "Introduceti nr. de discuri\n n= ";
     cin >> n;
-    towerOfHanoi(n, 'A', 'C', 'B');
+    hanoi(n, 'A', 'C', 'B');
     return 0;
 }
