@@ -27,3 +27,10 @@ Mediul de dezvoltare ales este Microsoft Visual Studio(2022)
 ![image](https://user-images.githubusercontent.com/93073180/207096496-1f541690-19ca-4844-a9bf-60ca990676c8.png)
 
 ![image](https://user-images.githubusercontent.com/93073180/207096796-e65fecfc-af65-4312-b609-a77803d621f5.png)
+
+    4.BIBLIOGRAFIE
+  https://www.youtube.com/watch?v=NSZ1fOWZAcY&t=44s&ab_channel=javatpoint
+  
+  https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi/
+  
+  http://blogcuriozitati.blogspot.com/2015/02/turnurile-din-hanoi.html
